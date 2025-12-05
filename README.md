@@ -10,14 +10,14 @@ Welcome to the Vibe Coding Lab! In this lab, you'll explore three powerful AI-dr
 ## 🗂️ Agenda
 1. [🚀 Quick Start](#1--quick-start)  
 2. [🛠️ Tool 1: Google Antigravity](#2-️-tool-1-google-antigravity)  
-3. [⚡ Tool 2: GitHub Spark](#3--tool-2-github-spark)  
+3. [⚡ Tool 2: Bolt.new](#3--tool-2-boltnew)  
 4. [🔥 Tool 3: Firebase Studio](#4--tool-3-firebase-studio)  
 5. [🎯 The Challenge: Build a To-Do App](#5--the-challenge-build-a-to-do-app)  
 6. [📝 Completion Checklist](#6--completion-checklist)  
 7. [🔧 Troubleshooting & Help](#7--troubleshooting--help)  
 8. [🤖 Vibe Coding Best Practices](#8--vibe-coding-best-practices)  
 9. [🎓 Academic Integrity](#9--academic-integrity)  
-10. [🔄 Alternative Tools: Bolt.new & Cursor](#-alternative-tools-boltnew--cursor)  
+10. [🔄 Alternative Tool: Cursor](#-alternative-tool-cursor)  
 
 ---
 
@@ -33,7 +33,7 @@ In this lab, you will:
 ```mermaid
 graph LR
     A[Sign Up for Tools] --> B[Google Antigravity]
-    A --> C[GitHub Spark]
+    A --> C[Bolt.new]
     A --> D[Firebase Studio]
     B --> E[Build To-Do App]
     C --> E
@@ -89,42 +89,42 @@ graph TD
 
 ---
 
-## 3. ⚡ Tool 2: GitHub Spark
+## 3. ⚡ Tool 2: Bolt.new
 
-GitHub Spark allows you to create **"Sparks"** — small, single-purpose applications using purely natural language.
+Bolt.new is a browser-based AI development environment that lets you build and deploy web apps using natural language — no installation required.
 
 ### Setup Steps
 
-1. **Navigate to**: [https://github.com/spark](https://github.com/spark) (or [https://githubnext.com/projects/github-spark](https://githubnext.com/projects/github-spark))
-2. **Sign in** with your GitHub account (use your Student Developer Pack account for best access).
-3. **Request access** or join the waitlist if required.
-4. **Explore** the Spark Dashboard:
-   - Natural language editor
-   - Live Preview pane
-   - No file system — purely functional focus
+1. **Navigate to**: [https://bolt.new](https://bolt.new)
+2. **Sign in** with your GitHub or Google account.
+3. **Start building** — describe what you want to create.
+4. **Explore** the interface:
+   - Prompt editor with live preview
+   - Auto-generated code you can inspect
+   - One-click deploy options
 
 ```mermaid
-graph TD
-    A[Go to GitHub Spark] --> B[Sign in with GitHub]
-    B --> C[Request Access/Join]
-    C --> D[Open Spark Dashboard]
-    D --> E[Explore Live Preview]
+graph LR
+    A[Go to bolt.new] --> B[Sign In]
+    B --> C[Describe Your App]
+    C --> D[Watch It Build]
+    D --> E[Deploy with One Click]
 ```
 
 ### Key Features to Note
 
 | Feature | Description |
 |---------|-------------|
-| Natural Language Editor | Describe app behaviour in plain English |
+| Natural Language Editor | Describe app behavior in plain English |
 | Live Preview | Instant visual updates as you type |
 | Managed Runtime | No hosting or deployment worries |
-| Copilot Integration | Deeply integrated with GitHub Copilot |
+| Built-in Deploy | Ship to Netlify with minimal setup |
 
 ### ✅ Setup Verification
 
-- [ ] Successfully logged in with GitHub
-- [ ] Have access to the Spark editor
-- [ ] Can see the Live Preview pane
+- [ ] Successfully signed in
+- [ ] Can see the live preview
+- [ ] Can deploy a generated app
 
 ---
 
@@ -217,14 +217,14 @@ Use the following prompts (or similar) with each tool:
 
 ---
 
-### Task 5.2: Build with GitHub Spark
+### Task 5.2: Build with Bolt.new
 
-1. Open the Spark editor.
+1. Open Bolt.new in your browser and start a new app.
 2. Describe your to-do app in natural language.
-3. Watch the Live Preview update.
+3. Watch the live preview update and review the generated code.
 4. Refine with additional prompts.
 5. Test the functionality.
-6. **Experiment!** Try changing the styling or adding animations.
+6. **Experiment!** Try enabling the built-in deploy and sharing the link.
 
 ---
 
@@ -243,7 +243,7 @@ Use the following prompts (or similar) with each tool:
 
 - [ ] Signed up for all three tools
 - [ ] Built a To-Do app with Google Antigravity
-- [ ] Built a To-Do app with GitHub Spark
+- [ ] Built a To-Do app with Bolt.new
 - [ ] Built a To-Do app with Firebase Studio
 - [ ] Experimented with refining and iterating on each app
 
@@ -256,7 +256,7 @@ Use the following prompts (or similar) with each tool:
 | Problem | Solution |
 |---------|----------|
 | Can't access Antigravity | May be region-restricted — try VPN or check availability |
-| GitHub Spark waitlist | Use your Student Developer Pack account for priority |
+| Bolt.new sign-in issues | Try an incognito window or switch between GitHub/Google login |
 | Firebase console errors | Ensure you've enabled the correct APIs |
 | AI not understanding prompts | Be more specific; break down into smaller requests |
 | Generated code has bugs | Describe the bug to the AI and ask for a fix |
@@ -330,44 +330,11 @@ This lab teaches you to:
 
 ---
 
-## 🔄 Alternative Tools: Bolt.new & Cursor
+## 🔄 Alternative Tool: Cursor
 
-If you're having trouble accessing any of the three tools above (waitlists, region restrictions, access issues), don't worry! Here are two excellent alternatives that are widely used in the industry.
+If you run into access issues with any of the tools above, Cursor is an excellent alternative that's widely used in industry.
 
----
-
-### Option A: Bolt.new
-
-Bolt.new is a browser-based AI development environment that lets you build and deploy web apps using natural language — no installation required.
-
-**What makes it great:**
-- Runs entirely in your browser — nothing to install
-- Describe what you want, and it writes the code instantly
-- Built-in deployment to Netlify with one click
-- Very beginner-friendly (feels like chatting with ChatGPT)
-
-**Setup Steps:**
-
-1. **Navigate to**: [https://bolt.new](https://bolt.new)
-2. **Sign in** with your GitHub or Google account.
-3. **Start building** — just type what you want to create!
-
-```mermaid
-graph LR
-    A[Go to bolt.new] --> B[Sign In]
-    B --> C[Describe Your App]
-    C --> D[Watch It Build]
-    D --> E[Deploy with One Click]
-```
-
-**Try the To-Do App Challenge:**
-- Type: *"Create a simple to-do list app where I can add tasks, mark them complete, and delete them"*
-- Watch the code appear and the preview update in real-time
-- Refine by adding more instructions like *"Add a dark mode toggle"*
-
----
-
-### Option B: Cursor
+### Cursor
 
 Cursor is an AI-powered code editor built on VS Code. It's used by professional developers and offers a more hands-on coding experience with AI assistance built in.
 
